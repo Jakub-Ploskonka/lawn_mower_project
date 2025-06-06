@@ -1,86 +1,83 @@
 # 🛠️ Lawn Mower DIY Project
 
-Projekt samodzielnie zaprojektowanej i wykonanej kosiarki DIY, przeznaczonej do koszenia trawy na działce przydomowej. Celem projektu jest stworzenie praktycznego urządzenia z możliwością rozbudowy o sterowanie automatyczne (GPS RTK) lub manualne (pilot).
+A self-designed and self-built DIY lawn mower project intended for mowing grass in a backyard or garden. The goal is to create a practical device with the potential for both automatic control (GPS RTK) and manual operation (remote control).
 
-## 🎯 Cel projektu
+## 🎯 Project Goal
 
-Zaprojektowanie i budowa funkcjonalnej kosiarki do trawy:
-- sterowanej manualnie (RC) lub automatyczne (GPS RTK)
-- Napędzanej elektrycznie
-- Z możliwością modyfikacji i rozwoju
+Design and build a functional lawn mower that is:
+- Manually controlled (RC) or autonomous (GPS RTK)
+- Electrically powered
+- Modular and expandable
 
-## ⚙️ Typ kosiarki
+## ⚙️ Mower Type
 
-- **Typ tnący:** Kosiarka rotacyjna (z nożem obrotowym)
-- **Zasilanie:** Elektryczne (akumulatorowe)
-- **Sterowanie:** Manualne **lub** zdalne
+- **Cutting system:** Rotary mower (spinning blade)
+- **Power source:** Electric (battery-powered)
+- **Control:** Manual or remote-controlled
 
-## 🔋 Zasilanie
+## 🔋 Power Supply
 
-- Napięcie: 12–24 V DC
-- Akumulator: Li-Ion / LiFePO4
-- Czas pracy: 30–45 minut
+- Voltage: 12–24 V DC
+- Battery type: Li-Ion / LiFePO4
+- Runtime: 30–45 minutes
 
-## 🚜 Napęd jezdny
+## 🚜 Drive System
 
-- Napęd: 2WD (przednie koła)
-- Silniki: DC z przekładnią / krokowe
-- Sterowanie: PWM, mostki H 
-- Prędkość: 0,3–0,6 m/s
+- Drive: 2WD (front wheels)
+- Motors: DC with gearbox / stepper motors
+- Speed control: PWM with H-bridge drivers
+- Speed: 0.3–0.6 m/s
 
-## 🛠️ Układ tnący
+## 🛠️ Cutting System
 
-- Nóż: Tarcza z ostrzami
-- Silnik tnący: BLDC ~100–300 W **lub** DC
-- Szerokość koszenia: 10-30 cm
-- Wysokość koszenia: Regulowana
+- Blade: Disc with replaceable cutting edges
+- Cutting motor: BLDC ~100–300 W or brushed DC motor
+- Cutting width: 10–30 cm
+- Cutting height: Adjustable
 
-## 📐 Wymiary i waga
+## 📐 Dimensions and Weight
 
-- Szerokość robocza: 40–50 cm
-- Długość: do ? cm
-- Wysokość: ? cm
-- Waga: max ? kg (z akumulatorami)
+- Working width: 40–50 cm
+- Length: up to ? cm
+- Height: ? cm
+- Weight: max ? kg (including batteries)
 
-## 🧠 Sterowanie i automatyka 
+## 🧠 Control and Automation
 
-- Mikrokontroler: Arduino / STM
-- Czujniki: 
-  - Przeszkód (IR, ultradźwiękowe)
-  - Położenia (kompas, GPS)
-  - Enkodery prędkości
-- Zabezpieczenia:
-  - Wyłącznik awaryjny
-  - Czujnik przewrócenia
-  - Termiczne zabezpieczenie silnika
+- Microcontroller: Arduino / STM
+- Sensors:
+  - Obstacle detection (IR, ultrasonic)
+  - Positioning (compass, GPS)
+  - Speed monitoring (encoders)
+- Safety features:
+  - Emergency stop switch
+  - Tilt sensor
+  - Motor thermal protection
 
-## 🧱 Konstrukcja mechaniczna
+## 🧱 Mechanical Construction
 
-- Rama: Profil stalowy / aluminiowy
-- Obudowa: Tworzywo / metal
-- Koła: 15-25 cm
-- Mechanizm wysokości: ręczny lub serwo
+- Frame: Steel or aluminum profile
+- Housing: Plastic or metal
+- Wheels: 15–25 cm in diameter
+- Height adjustment mechanism: Manual or servo-driven
 
-## 💰 Budżet
+## 💰 Budget
 
-- Zakładany budżet: 500–1500 zł
+- Estimated cost: 500–1500 PLN (~100–350 EUR)
 
+## 📌 Project Status
 
-## 📌 Status projektu
-
-> 🔧 **W budowie**  
-> Projekt jest w trakcie realizacji. Dokumentacja, schematy i kod będą sukcesywnie dodawane do repozytorium.
-
----
-
-## 📸 Galeria / Dokumentacja
-
-(Zdjęcia, rysunki techniczne i schematy będą dostępne w katalogu `docs/`)
+> 🔧 **Under construction**  
+> This project is currently in progress. Documentation, schematics, and source code will be added gradually to the repository.
 
 ---
 
-## 📄 Licencja
+## 📸 Gallery / Documentation
 
-Projekt dostępny na licencji MIT – swobodnie modyfikuj i rozwijaj.
+(Photos, technical drawings, and schematics will be available in the `docs/` directory.)
 
+---
 
+## 📄 License
+
+This project is available under the MIT License – feel free to modify and build upon it.

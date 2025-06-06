@@ -2,6 +2,9 @@
 // Date: 06 2025
 // Handling of limit switch with straight lever - WK315
 
+
+// Tests witch Arduino NANO
+// pins used: D2 D3  
 const int pinCzujnika = 2;
 const int pinLed = 3;
 volatile bool stanCzujnika = false;
